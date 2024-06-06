@@ -25,24 +25,24 @@
                 <li class="menu-item  <?= getActive() == $menu['activeState'] ? 'active' : '' ?>">
                     <?php if (isset($menu['items'])) : ?>
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                        <?php else :?>
+                        <?php else : ?>
                             <a href="<?= $menu['route'] ?>" class="menu-link">
-                        <?php endif ?>
-                        <i class="menu-icon tf-icons bx <?= $menu['icon'] ?>"></i>
-                        <div data-i18n="<?= __($menu['label']) ?>"><?= __($menu['label']) ?></div>
-                        </a>
+                            <?php endif ?>
+                            <i class="menu-icon tf-icons bx <?= $menu['icon'] ?>"></i>
+                            <div data-i18n="<?= __($menu['label']) ?>"><?= __($menu['label']) ?></div>
+                            </a>
 
-                        <?php if (isset($menu['items'])) : ?>
-                            <ul class="menu-sub">
-                                <?php if (isset($menu['items'])) foreach ($menu['items'] as $item) : ?>
-                                    <li class="menu-item">
-                                        <a href="<?= $item['route'] ?>" class="menu-link">
-                                            <div data-i18n="Without menu"><?= __($item['label']) ?></div>
-                                        </a>
-                                    </li>
-                                <?php endforeach ?>
-                            </ul>
-                        <?php endif ?>
+                            <?php if (isset($menu['items'])) : ?>
+                                <ul class="menu-sub">
+                                    <?php if (isset($menu['items'])) foreach ($menu['items'] as $item) : ?>
+                                        <li class="menu-item">
+                                            <a href="<?= $item['route'] ?>" class="menu-link">
+                                                <div data-i18n="Without menu"><?= __($item['label']) ?></div>
+                                            </a>
+                                        </li>
+                                    <?php endforeach ?>
+                                </ul>
+                            <?php endif ?>
 
                 </li>
             <?php endforeach ?>

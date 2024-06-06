@@ -1,66 +1,65 @@
+<!-- / Content -->
 
-          <!-- / Content -->
-    
-            </div>
-            </div>
-          <!-- Footer -->
-          <footer class="content-footer footer bg-footer-theme">
-            <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-              <div class="mb-2 mb-md-0">
-                ©
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                , made with ❤️ by
-                <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-              </div>
-            
-            </div>
-          </footer>
-          <!-- / Footer -->
-
-          <div class="content-backdrop fade"></div>
-        </div>
-        <!-- Content wrapper -->
-      </div>
-      <!-- / Layout page -->
+</div>
+</div>
+<!-- Footer -->
+<footer class="content-footer footer bg-footer-theme">
+  <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+    <div class="mb-2 mb-md-0">
+      ©
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      , made with ❤️ by
+      <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
     </div>
 
-    <!-- Overlay -->
-    <div class="layout-overlay layout-menu-toggle"></div>
   </div>
-  <!-- / Layout wrapper -->
+</footer>
+<!-- / Footer -->
 
-  
+<div class="content-backdrop fade"></div>
+</div>
+<!-- Content wrapper -->
+</div>
+<!-- / Layout page -->
+</div>
 
-  <!-- Core JS -->
-  <!-- build:js assets/vendor/js/core.js -->
-  <script src="<?=asset('theme/assets/vendor/libs/jquery/jquery.js')?>"></script>
-  <script src="<?=asset('theme/assets/vendor/libs/popper/popper.js')?>"></script>
-  <script src="<?=asset('theme/assets/vendor/js/bootstrap.js')?>"></script>
-  <script src="<?=asset('theme/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js')?>"></script>
+<!-- Overlay -->
+<div class="layout-overlay layout-menu-toggle"></div>
+</div>
+<!-- / Layout wrapper -->
 
-  <script src="<?=asset('theme/assets/vendor/js/menu.js')?>"></script>
-  <!-- endbuild -->
 
-  <!-- Vendors JS -->
-  <script src="<?=asset('theme/assets/vendor/libs/apex-charts/apexcharts.js')?>"></script>
 
-  <!-- Main JS -->
-  <script src="<?=asset('theme/assets/js/main.js')?>"></script>
+<!-- Core JS -->
+<!-- build:js assets/vendor/js/core.js -->
+<script src="<?= asset('theme/assets/vendor/libs/jquery/jquery.js') ?>"></script>
+<script src="<?= asset('theme/assets/vendor/libs/popper/popper.js') ?>"></script>
+<script src="<?= asset('theme/assets/vendor/js/bootstrap.js') ?>"></script>
+<script src="<?= asset('theme/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js') ?>"></script>
 
-  <!-- Page JS -->
-  <script src="<?=asset('theme/assets/js/dashboards-analytics.js')?>"></script>
+<script src="<?= asset('theme/assets/vendor/js/menu.js') ?>"></script>
+<!-- endbuild -->
 
-  <!-- Place this tag in your head or just before your close body tag. -->
-  <script async defer src="https://buttons.github.io/buttons.js')?>"></script>
+<!-- Vendors JS -->
+<script src="<?= asset('theme/assets/vendor/libs/apex-charts/apexcharts.js') ?>"></script>
 
-    <!-- Datatables -->
-        <script src="<?=asset('theme/assets/js/datatables/datatables.min.js')?>"></script>
-        <script src="<?=asset('theme/assets/js/datatables/datatables.bootstrap5.min.js')?>"></script>
-        <script src="<?=asset('theme/assets/js/datatables-pagingtype/full_numbers_no_ellipses.js')?>"></script>
+<!-- Main JS -->
+<script src="<?= asset('theme/assets/js/main.js') ?>"></script>
 
-  <?php foot_script() ?>
+<!-- Page JS -->
+<script src="<?= asset('theme/assets/js/dashboards-analytics.js') ?>"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js')?>"></script>
+
+<!-- Datatables -->
+<script src="<?= asset('theme/assets/js/datatables/datatables.min.js') ?>"></script>
+<script src="<?= asset('theme/assets/js/datatables/datatables.bootstrap5.min.js') ?>"></script>
+<script src="<?= asset('theme/assets/js/datatables-pagingtype/full_numbers_no_ellipses.js') ?>"></script>
+
+<?php foot_script() ?>
 </body>
 
 </html>
