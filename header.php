@@ -74,6 +74,7 @@
                     <div class="container-xxl flex-grow-1 container-p-y">
 
                         <!-- start page title -->
+                         <?php /*
                         <?php if (get_module_name()) : ?>
                             <h4 class="page-title mb-2"><?= get_module_name() ?></h4>
                             <div class="page-title-left">
@@ -87,4 +88,4 @@
                             </div>
                         
 
-                        <?php endif ?>
+                        <?php endif ?> */ ?>
