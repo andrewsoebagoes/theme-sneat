@@ -2,7 +2,7 @@
     <div class="app-brand demo">
         <a href="<?= routeTo('/') ?>" class="app-brand-link">
             <span class="app-brand-logo demo">
-                <img src="<?= env('APP_SIDEBAR_LOGO', asset('theme/assets/img/avatars/1.png"')) ?>" alt="logo" width="200">
+                <img src="<?= getSidebarLogo() ?>" alt="logo" width="200">
             </span>
         </a>
 

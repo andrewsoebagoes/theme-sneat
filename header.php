@@ -8,7 +8,7 @@
     <!-- <meta content="" name="description" /> -->
 
     <!-- App favicon -->
-    <link rel="icon" type="image/x-icon" href="<?= env('APP_FAVICON', asset('theme/assets/images/favicon.ico')) ?>">
+    <link rel="icon" type="image/x-icon" href="<?= getFavicon() ?>">
 
     <link href="<?= asset('theme/assets/css/dataTables.bootstrap5.min.css') ?>" rel="stylesheet">
 
