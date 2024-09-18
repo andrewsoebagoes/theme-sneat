@@ -1,32 +1,26 @@
-<!-- / Content -->
+					</div>
+					<!-- / Content -->
+				</div>
+				<!-- Footer -->
+				<footer class="content-footer footer bg-footer-theme">
+					<div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+						<div class="mb-2 mb-md-0">
+							© <?=date('Y')?> made with ❤️ by
+							<a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
+						</div>
+					</div>
+				</footer>
+				<!-- / Footer -->
 
-</div>
-</div>
-<!-- Footer -->
-<footer class="content-footer footer bg-footer-theme">
-  <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-    <div class="mb-2 mb-md-0">
-      ©
-      <script>
-        document.write(new Date().getFullYear());
-      </script>
-      , made with ❤️ by
-      <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-    </div>
+				<div class="content-backdrop fade"></div>
+			</div>
+			<!-- Content wrapper -->
+		</div>
+		<!-- / Layout page -->
+	</div>
 
-  </div>
-</footer>
-<!-- / Footer -->
-
-<div class="content-backdrop fade"></div>
-</div>
-<!-- Content wrapper -->
-</div>
-<!-- / Layout page -->
-</div>
-
-<!-- Overlay -->
-<div class="layout-overlay layout-menu-toggle"></div>
+	<!-- Overlay -->
+	<div class="layout-overlay layout-menu-toggle"></div>
 </div>
 <!-- / Layout wrapper -->
 
@@ -58,6 +52,7 @@
 <script src="<?= asset('theme/assets/js/datatables/datatables.min.js') ?>"></script>
 <script src="<?= asset('theme/assets/js/datatables/datatables.bootstrap5.min.js') ?>"></script>
 <script src="<?= asset('theme/assets/js/datatables-pagingtype/full_numbers_no_ellipses.js') ?>"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <?php foot_script() ?>
 </body>

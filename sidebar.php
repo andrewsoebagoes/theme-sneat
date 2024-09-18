@@ -22,7 +22,7 @@
 
             <?php foreach ($module['menu'] as $k => $menu) : ?>
 
-                <li class="menu-item  <?= getActive() == $menu['activeState'] ? 'active' : '' ?>">
+                <li class="menu-item  <?= in_array(getActive(), is_array($menu['activeState']) ? $menu['activeState'] : [$menu['activeState']]) ? 'active open' : '' ?>">
                     <?php if (isset($menu['items'])) : ?>
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                         <?php else : ?>
