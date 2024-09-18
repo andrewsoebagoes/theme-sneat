@@ -35,7 +35,7 @@
                             <?php if (isset($menu['items'])) : ?>
                                 <ul class="menu-sub">
                                     <?php if (isset($menu['items'])) foreach ($menu['items'] as $item) : ?>
-                                        <li class="menu-item">
+                                        <li class="menu-item <?= in_array(getActive(), is_array($item['activeState']) ? $item['activeState'] : [$item['activeState']]) ? 'active open' : '' ?>">
                                             <a href="<?= $item['route'] ?>" class="menu-link">
                                                 <div data-i18n="Without menu"><?= __($item['label']) ?></div>
                                             </a>
